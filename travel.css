@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 95vw;
+    min-height: 100vmin;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.header{
+    width: 95%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logonav{
+    width: 90%;
+    height: 5vmax;
+    margin: 20px;
+    margin-top: 90px;
+    /* border: 1px solid black; */
+    z-index: 1;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    width: 40%;
+    height: 100%;
+    /* margin: 10px; */
+    color: #fcfeff;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+ul li {
+    list-style: none;
+    align-items: center;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    color:  #F8EDE3;
+    line-height: 100%;
+   
+}
+ul li a{
+text-align: center;
+text-decoration: none;
+color:#F8EDE3;
+padding: 6px;
+font-size: 20px;
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+}
+ul li a:hover{
+    padding: 5px;
+    color: rgb(30, 29, 28);
+    transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+}
+#call{
+    width:6.5rem;
+    font-size: 20px;
+}
+
+.destination{
+    width: 100%;
+    height: 18em;
+    /* border: 1px solid black; */
+    
+}
+.destination .heading{
+    width: 100%;
+    height: 4em;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.heading h3{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.heading p{
+    margin: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.product{
+    width: 90%;
+    height: 13em;
+    margin: 5px;
+    padding-left: 15px;
+    margin-left: 2.5em;
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: space-between;
+    
+    
+}
+.product .box{
+    width: 20%;
+    height: 12em;
+    /* margin-top: -2rem; */
+    margin-left: 15px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+}
+.box h4{
+    margin-top: -2em;
+    color: whitesmoke;
+}
+.service{
+    width: 90%;
+    height: 15em;
+    margin: 5px;
+     /* border: 1px solid black; */
+}
+.service .serv-heading{
+    width: 100%;
+    height: 4em;
+    margin: 5px 0 0 2em;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+}
+.serv-heading h3{
+    margin: 10px;
+    text-align: center;
+}
+.serv-heading p{
+    margin: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.service .symbols{
+    width: 90%;
+    height: 10em;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.body .symb1{
+    width: 30%;
+    height: 9em;
+    margin-top: 5px;
+    margin-left: 15px;
+   align-items: center;
+}
+.symb1 img{
+    width: 4em;
+    margin-left: 30%;
+}
+.symb1 h4{
+    margin-top: 5px;
+text-align: center;
+}
+.article{
+    width: 80%;
+    height: 22em;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.article .artice1{
+    width: 30%;
+    height:21em;
+    /* border: 1px solid black; */
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.artice1 img{
+    width: 100%;
+    height: 60%;
+}
+.artice1 h4{
+    margin: 10px;
+}
+.artice1 p{
+    font-size: 14px;
+    margin: 5px;
+}
+.artice1 button{
+    background: none;
+    border: none;
+    color: darkgrey;
+}
+button:hover{
+    color: cadetblue;
+    margin: 5px;
+    
+}
+
+.artice1:hover{
+    margin: -20px;
+   padding: 10px;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+}
+.custom{
+    width: 100%;
+    height: 15em;
+    margin-top: 10px;
+    padding-top: 30px;
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+}
+.custom h2{
+    color: #F8EDE3;
+    text-align: center;
+    margin: 20px;
+}
+.custom p{
+    width: 75%;
+   margin: auto;
+    color: #fcfeff;
+    text-align: center;
+}
+.cust-sub{
+    width: 60%;
+    height: 1em;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cust-sub .sub{
+    text-align: center;
+    color: #ffffff;
+    /* border: 1px solid rgb(20, 20, 20); */
+}
+
+/* Default styles */
+
+/* Your existing CSS code */
+
+/* Media query for screens smaller than 768px (typical smartphones) */
+@media only screen and (max-width: 767px ) {
+    .logonav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-left: -9em;
+        padding-left: -70px;
+        margin-bottom: 5px;
+        
+    }
+    .nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    li {
+        
+        padding: 10px;
+    }
+    .product {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
+        
+    }
+    .product .box {
+        width: 80%; /* Adjust width as needed */
+        margin: 20px 0; /* Increase margin to prevent overlap
+        
+        align-items: center; */
+        
+    } 
+    .service{
+        margin-top: 45rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .service .symbols {
+        flex-direction: column;
+        align-items: center;
+        /* margin-top:45em */
+    }
+    /* .service .symb1 {
+        width: 90%; Adjust width as needed */
+        /* margin: 20px 0; Increase margin to prevent overlap */
+        /* flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        
+    } */
+    .article {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40em;
+        gap: 10px;
+        /* padding: 10px; */
+       
+    }
+    .article .artice1 {
+        width: 80%; /* Adjust width as needed */
+        /* margin-bottom: 40px;
+        flex-direction: wrap;  Increase margin to prevent overlap  */
+        align-items: center;
+        text-align: center;
+    }
+    .custom{
+        min-height: 20em;
+        margin-top: 20em;
+    }
+}
+
+
